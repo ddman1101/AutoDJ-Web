@@ -1,0 +1,13 @@
+<h1>Welcome to Auto-DJ Web<h1>
+
+<form enctype="multipart/form-data" action="/uploadFile/" method="post">
+    <input type="file" value="Upload your music (format : .mp3 or .wav)" name="myfile"/>
+    <br/>
+    <input type="submit" value="UPLOAD"/>
+      {%csrf_token%}
+<form/>
+<input type="button" value="DJ start" onclick="location.href='index'">
+<audio controls>
+    <source src="{{ Song.audio_file.url }}" type="audio/mp3">
+</audio>
+

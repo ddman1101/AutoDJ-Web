@@ -1,0 +1,11 @@
+<h1>TEST<h1>
+    <form name="test" action="" method="POST">
+        <label for="test">Please enter the command : </label>
+        <input id="test" type="text" name="test">
+        {%csrf_token%}
+    </form>
+    <h2>{{temp}}<h2>
+    <audio controls>
+        <source src="{{get_sound}}" type="audio/mp3">
+    </audio> 
+{{data}}
