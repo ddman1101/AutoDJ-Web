@@ -1,6 +1,6 @@
 # AutoDJ-Web
 
-The web is made a platform for the auto-dj. And it still has some problem in it. But it still has some function :
+The web is made a platform for the auto-dj. And the web is unfinished, so it still has some problem in it. But it still has some function :
 
 1. Annotate the music online
 2. Upload the music to local machine.
@@ -28,8 +28,19 @@ You can also run
 to make the part of installing dependencies.
 
 ## How to use
+You need to run the web on the server first. So you need to run this under the `AutoDJ-web/` first
+* `python manage.py runserver`
 
+Then
 1. Click `Choose File` to upload your music.
 2. After upload all your music (Suggest : more than 20 songs), click the `DJ start`
 3. then input the command to control the Auto-DJ
+
+* `annotate` : Annotate all the files in the pool of available songs that are not annotated yet. Note that this might take a while, and that in the current prototype this can only be interrupted by forcefully exiting the program
+
+## Future work
+# Build the function "play" in it. (Real-time)
+# Save the set and provide the "download" function.
+
+
 
