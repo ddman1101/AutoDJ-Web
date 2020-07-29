@@ -1,5 +1,10 @@
 # AutoDJ-Web
 
+The web is made a platform for the auto-dj. And it still has some problem in it. But it still has some function :
+
+1. Annotate the music online
+2. Upload the music to local machine.
+
 ## Installing dependencies
 
 The automatic-DJ web has been developed for python 3.7.7 and tested on Ubuntu 18.04 LTS. It depends on the following python packages:
@@ -21,3 +26,10 @@ These packages can be installed using e.g. the `pip` package manager or using `a
 You can also run 
 `pip install -r requirements.txt`
 to make the part of installing dependencies.
+
+## How to use
+
+1. Click `Choose File` to upload your music.
+2. After upload all your music (Suggest : more than 20 songs), click the `DJ start`
+3. then input the command to control the Auto-DJ
+
