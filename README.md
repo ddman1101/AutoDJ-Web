@@ -39,8 +39,8 @@ Then
 * `annotate` : Annotate all the files in the pool of available songs that are not annotated yet. Note that this might take a while, and that in the current prototype this can only be interrupted by forcefully exiting the program
 
 ## Future work
-# Build the function "play" in it. (Real-time)
-# Save the set and provide the "download" function.
+- Build the function "play" in it. (Real-time)
+- Save the set and provide the "download" function.
 
 
 
